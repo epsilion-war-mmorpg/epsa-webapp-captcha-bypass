@@ -1,6 +1,7 @@
 WIP: epsa-webapp-captcha-bypass
 ---
 
+[dev bot](https://t.me/epsa_webapp_bypass_dev_bot)
 
 
 ### Local setup
@@ -17,10 +18,11 @@ $ poetry install
 ### Run webapp local
 ```shell
 $ flask --app webapp run
+$ ngrok http 80
 ```
 
 
 ### Run bot local
 ```shell
-$ 
+$ python -m bot
 ```

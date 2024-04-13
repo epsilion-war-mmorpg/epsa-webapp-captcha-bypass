@@ -15,8 +15,8 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic-settings = "^2.2.1"
-pydantic = "^2.7.0"
 flask = "^3.0.3"
+aiogram = "^3.4.1"
 
 
 [tool.mypy]
